@@ -1,0 +1,156 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.page-holder {
+  background-image: url("../img/bg.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.logo {
+  /*background-image: url("../img/logo.png");*/
+  /*background-position: center;*/
+  /*background-size: contain;*/
+  /*background-repeat: no-repeat;*/
+  width: 250px;
+  height: 80px;
+  margin-bottom: 30px;
+}
+
+.content h2 {
+  font-size: 16px;
+  margin: 10px 0;
+
+}
+
+.content-margin {
+  margin-bottom: 20px;
+}
+
+.links-holder h2 {
+  margin: 0 0 10px;
+  font-size: 18px;
+}
+
+.links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 2px solid #000;
+}
+
+.links li {
+  margin: 0;
+}
+
+.links p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.links img {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+
+.link {
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid lightgrey;
+  color: #000000;
+  text-decoration: none;
+}
+
+.link:hover {
+  background-color: RGBA(218,218,218,0.3);
+  color: #000000;
+
+  -webkit-animation: fade-in 0.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  animation: fade-in 0.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@-webkit-keyframes fade-in {
+  0% {
+    background-color: RGBA(218,218,218,0);
+  }
+  100% {
+    background-color: RGBA(218,218,218,0.5);
+  }
+}
+@keyframes fade-in {
+  0% {
+    background-color: RGBA(218,218,218,0);
+  }
+  100% {
+    background-color: RGBA(218,218,218,0.5);
+  }
+}
+
+.social-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-holder {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60px;
+}
+
+.social-holder img {
+  width: 25px;
+  height: 25px;
+}
+
+.patrons-container {
+
+}
+
+.logos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 360px;
+  background: #fff;
+  padding: 20px;
+}
+
+.logo img {
+    width: 25px;
+  height: 25px;
+}
+
+.patron {
+  max-width:75px;
+  max-height: 40px;
+  padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
