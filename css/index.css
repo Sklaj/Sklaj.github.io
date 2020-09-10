@@ -2,11 +2,24 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
-.center {
+.section-container {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.yt-holder {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+.yt-holder iframe {
+  width: 100%;
+  min-height: 300px;
+}
+
+/***********Page*/
 
 .page-holder {
   background-image: url("../img/bg.jpg");
@@ -27,8 +40,8 @@ body {
   position: relative;
   height: 100%;
   width: 100%;
-  max-width: 1200px;
-  padding: 50px 20px;
+  max-width: 560px;
+  padding: 50px 20px 30px;
 }
 
 .container h2 {
@@ -36,26 +49,39 @@ body {
   font-size: 18px;
 }
 
-.logo {
-  width: 250px;
-  height: 80px;
+/***********Header*/
+
+.header-holder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
   margin-bottom: 30px;
 }
 
-.content {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
+.logo {
+  width: 250px;
+  height: 80px;
 }
 
-.content-margin {
-  margin-bottom: 20px;
+.social-holder {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80px;
 }
+
+.social-holder img {
+  width: 35px;
+  height: 35px;
+}
+
+/***********Distribution*/
 
 .cd-holder {
   display: flex;
   align-items: center;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   padding: 20px;
   border: 2px solid #000;
   text-decoration: none;
@@ -79,8 +105,10 @@ body {
   font-size: 18px;
 }
 
+/***********Links*/
+
 .links-holder {
-    flex-basis: 50%;
+  margin-bottom: 30px;
 }
 
 .links {
@@ -139,31 +167,11 @@ body {
   }
 }
 
-.yt-holder {
-  flex-basis: 50%;
-  padding-left: 40px;
-}
-
-.social-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.social-holder {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 80px;
-}
-
-.social-holder img {
-  width: 35px;
-  height: 35px;
-}
+/***********Patrons*/
 
 .patrons-container {
   width: 100%;
+  margin-bottom: 30px;
 }
 
 .logos {
@@ -186,6 +194,41 @@ body {
   max-height: 40px;
   padding: 10px;
 }
+
+/***********Copyright*/
+
+.copyright {
+  color: #a4a4a4;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
