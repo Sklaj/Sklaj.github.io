@@ -64,13 +64,6 @@ body {
   height: 50px;
 }
 
-@media (min-width: 385px) {
-  .logo {
-    width: 250px;
-    height: 80px;
-  }
-}
-
 .social-holder {
   display: flex;
   align-items: center;
@@ -88,6 +81,8 @@ body {
 .cd-holder {
   display: flex;
   align-items: center;
+  flex-direction: column;
+  text-align: center;
   margin-bottom: 30px;
   padding: 20px;
   border: 2px solid #000;
@@ -105,7 +100,6 @@ body {
 
 .cd-holder img {
   box-shadow: 0 0 7px 2px rgba(0, 0, 0, 0.43);
-  margin-right: 20px;
 }
 
 .cd-holder p {
@@ -186,14 +180,8 @@ body {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  width: 100%;
   background: #fff;
   padding: 20px;
-}
-
-.logo img {
-  width: 25px;
-  height: 25px;
 }
 
 .patron {
@@ -209,12 +197,23 @@ body {
   text-align: center;
 }
 
+/***********Mobile*/
 
+@media (min-width: 385px) {
+  .logo {
+    width: 250px;
+    height: 80px;
+  }
 
+  .cd-holder {
+    flex-direction: row;
+    text-align: unset;
+  }
 
-
-
-
+  .cd-holder img {
+    margin-right: 20px;
+  }
+}
 
 
 
