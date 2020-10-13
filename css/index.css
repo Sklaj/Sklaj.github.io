@@ -98,7 +98,7 @@ body {
   animation: fade-in 0.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
-.cd-holder img {
+.cd-holder .shadow {
   box-shadow: 0 0 7px 2px rgba(0, 0, 0, 0.43);
 }
 
